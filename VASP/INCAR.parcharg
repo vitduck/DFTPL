@@ -1,0 +1,9 @@
+LCHARG = .FALSE
+LWAVE  = .FALSE.
+
+LPARD  = .TRUE. 
+LSEPB  = .TRUE.
+LSEPK  = .TRUE.
+IBAND  =  666
+EINT   = -0.5  0.5
+KPUSE  = 1 2 3 4 

@@ -1,0 +1,60 @@
+# INCAR
+IVDW  = 0          
+
+# disable symmetry
+ISYM  = 0         
+
+# spin-polarzied 
+ISPIN   = 1
+# NUPDOWN = -1
+# MAGMOM  = 0
+
+# with softer pp
+ENCUT = 300
+PREC  = normal        
+
+# projection
+LREAL = A
+
+# scf
+ALGO   = veryfast   
+EDIFF  = 1E-04    
+NELMIN = 6
+
+# smearing 
+ISMEAR = 0
+SIGMA  = 0.1
+
+# paralellism
+NPAR = 12
+
+# minimal writing
+NWRITE = 0
+LCHARG = .FALSE.
+LWAVE  = .FALSE.
+
+# nvt
+IBRION = 0
+
+# nose
+MDALGO = 2
+SMASS  = 0
+
+# andersen
+# MDALGO = 1
+# ANDERSEN_PROB = 0.1
+
+# md length
+NSW   = 1000
+POTIM = 1.0
+
+# temperature
+TEBEG = 300
+TEEND = 300
+
+# bluemoon
+INCREM = 0         
+LBLUEOUT = .TRUE.
+
+# mostly for H
+# POMASS = 2.0

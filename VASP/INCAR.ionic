@@ -1,0 +1,52 @@
+# INCAR
+ISTART = 0
+ICHARG = 2
+
+# vdw correction
+IVDW   = 0 
+
+# symmetry
+ISYM  = 2
+
+# spin-polarized
+ISPIN   = 1
+# MAGMOM  = 
+# NUPDOWN = -1
+
+# cut-off
+PREC  = normal
+ENCUT = 400
+LREAL = A
+
+# scf
+ALGO   = fast 
+EDIFF  = 1E-04
+EDIFFG = -0.025
+NELMIN = 4
+
+# smearing
+ISMEAR = 0 
+SIGMA  = 0.1
+
+# paralellism
+NPAR = 12
+
+# ionic
+ISIF   = 2
+IBRION = 2 
+NSW    = 100
+POTIM  = 0.1
+
+# projection
+LORBIT = 11 
+NEDOS  = 3000
+
+LCHARG = .TRUE.
+LWAVE  = .TRUE.
+
+# ICORELEVEL = 1 
+
+# LAECHG = .TRUE.
+
+# LVTOT  = .TRUE.
+# LVHAR  = .TRUE.
